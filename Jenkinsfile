@@ -1,10 +1,10 @@
 node {
-    atage 'Build'
+    stage 'Build'
     echo "A"
 
-    atage 'Test'
+    stage 'Test'
     echo "B"
 
-    atage 'Deploy'
+    stage 'Deploy'
     echo "C"
 }
