@@ -18,4 +18,22 @@ pipeline {
             }
         }
     }
+
+    stages {
+        stage('Build2') { 
+            steps { 
+                echo "Build2"
+            }
+        }
+        stage('Test2'){
+            steps {
+                echo "Test2" 
+            }
+        }
+        stage('Deploy2') {
+            steps {
+                echo "Deploy2"
+            }
+        }
+    }
 }
