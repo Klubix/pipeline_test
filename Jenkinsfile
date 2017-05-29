@@ -2,7 +2,7 @@ node {
 
 	stage "Hello world"
 
-	echo 'Hello World'
+	echo 'To już nie jest Hello World'
 
 	stage "Stage 2"
 
